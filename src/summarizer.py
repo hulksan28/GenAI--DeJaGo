@@ -115,7 +115,7 @@ if __name__ == "__main__":
     codebase_folder = "."
     summary_file = "summary.txt"
     method_summary_prompt = "Provide a summary of what the below mentioned method does:\n"
-    openai_api_key = "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"
+    openai_api_key = <Your OpenAI Token>
     collection_name = "code_summary"
     summarizer = Summarizer(
         codebase_folder, summary_file, method_summary_prompt, openai_api_key, collection_name)
